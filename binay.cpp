@@ -12,9 +12,10 @@ while(start<=end){
 		{end=m-1;}
 	else if(x>arr[m])
 		{start=m+1;}
-	else 
-		return -1;
+	
 }
+	
+		return -1;
 }
 
 
